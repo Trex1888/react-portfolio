@@ -1,0 +1,40 @@
+.contact {
+  padding: 100px 0;
+  background: #23263a;
+}
+.contactSection-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contactSection-logo img {
+  margin: 0 auto;
+  width: 130px;
+}
+.contactSection p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.contactCircles {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.contactCircles li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #1f2235;
+  margin: 0 10px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.contactCircles li:hover {
+  background: #ff4a57;
+}

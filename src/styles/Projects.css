@@ -1,0 +1,48 @@
+.projects {
+  width: 100%;
+  padding: 100px 0;
+  background: #1f2235;
+}
+
+.project {
+  background: #23263a;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 35px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.projectHeading {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.project ul {
+  list-style-type: none;
+}
+
+.project ul li {
+  margin: 5px 0;
+  border-bottom: 1px solid #3c3c3c;
+  font-size: 14px;
+  padding: 15px 0;
+}
+
+.project__btn {
+  margin-top: 40px;
+}
+
+.project__img {
+  object-fit: contain;
+  width: 230px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+
+.project__img:hover {
+  transform: scale(1.08);
+  opacity: 0.9;
+}
