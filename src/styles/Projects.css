@@ -36,7 +36,7 @@
 
 .project__img {
   object-fit: contain;
-  width: 230px;
+  width: 200px;
   margin-top: 15px;
   cursor: pointer;
   transition: transform 450ms;

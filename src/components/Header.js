@@ -9,8 +9,8 @@ import {
 
 const Header = () => {
   const [state] = useState({
-    title: "Hello World!",
-    text: "My name is Andy and I'm a React and MERN Full Stack Web Developer",
+    title: "Glad you made it here!",
+    text: "My name is Andy. I am a React and MERN Full Stack Web Developer.",
     image: "images/logo2.png",
   });
 
@@ -36,7 +36,7 @@ const Header = () => {
                       <FaInstagram className="headerIcon" />
                     </li>
                   </ul>
-                  <h1>{state.title}</h1>
+                  <h2>{state.title}</h2>
                   <p>{state.text}</p>
                   <div className="header__buttons">
                     <a

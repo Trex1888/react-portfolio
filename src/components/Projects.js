@@ -6,7 +6,7 @@ const Projects = () => {
     mainHeader: "REACT",
     subHeading: "React Projects",
     text:
-      "Currently, there are over 35 React projects in my portfolio. ALL PROJECTS ARE SECURELY HOSTED. LOGINS SECURED WITH GOOGLE AUTHENTICATION.",
+      "Currently, there are over 45 React projects in my portfolio. ALL PROJECTS ARE SECURELY HOSTED. LOGINS SECURED WITH GOOGLE AUTHENTICATION.",
   });
 
   const [state] = useState([

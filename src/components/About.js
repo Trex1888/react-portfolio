@@ -36,7 +36,7 @@ const About = () => {
               <div className="about__info">
                 <h1>Eat, Sleep, React</h1>
                 <div className="about__info-p1">
-                  I have assembled and deployed over 40 fully functioning
+                  I have assembled and deployed over 45 fully functioning
                   projects using React. All the code and links to the projects
                   can be in found my GitHub repositories.
                 </div>
